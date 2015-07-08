@@ -17,7 +17,7 @@ Powerful tag to extract data from the external services and to render it in nice
 
 ## Changelog
 
-*v1.0.0 - TBA*
+**v1.0.0 - TBA**
 
 - Initial Release
 

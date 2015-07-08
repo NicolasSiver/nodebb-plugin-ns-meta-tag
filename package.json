@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/NicolasSiver/nodebb-plugin-ns-meta-tag/issues"
   },
-  "homepage": "https://github.com/NicolasSiver/nodebb-plugin-ns-meta-tag#readme"
+  "homepage": "https://github.com/NicolasSiver/nodebb-plugin-ns-meta-tag#readme",
+  "nbbpm": {
+    "compatibility": "^0.7.0"
+  }
 }
