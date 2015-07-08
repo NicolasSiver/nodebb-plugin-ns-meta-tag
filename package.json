@@ -1,0 +1,27 @@
+{
+  "name": "nodebb-plugin-ns-meta-tag",
+  "version": "1.0.0",
+  "description": "Powerful tag to extract data from the external services and to render it in nice looking way.",
+  "main": "plugin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicolasSiver/nodebb-plugin-ns-meta-tag.git"
+  },
+  "keywords": [
+    "meta",
+    "tag",
+    "nodebb",
+    "api",
+    "external",
+    "beautify"
+  ],
+  "author": "Nicolas Siver",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NicolasSiver/nodebb-plugin-ns-meta-tag/issues"
+  },
+  "homepage": "https://github.com/NicolasSiver/nodebb-plugin-ns-meta-tag#readme"
+}
