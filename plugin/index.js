@@ -9,6 +9,17 @@
         sockets  = require('./sockets');
 
     Plugin.hooks = {
+        filters: {
+            adminHeaderBuild: function (header, callback) {
+                header.plugins.push({
+                    route: '/plugins/meta-tag',
+                    icon : 'fa-code',
+                    name : 'Meta Tag'
+                });
+                callback(null, header);
+            },
+        },
+
         statics: {
             appLoad: function (params, callback) {
                 var router     = params.router,
