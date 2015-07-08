@@ -1,0 +1,27 @@
+{
+  "id": "nodebb-plugin-ns-meta-tag",
+  "name": "NodeBB Meta Tag",
+  "description": "Powerful tag to extract data from the external services and to render it in nice looking way",
+  "url": "https://github.com/NicolasSiver/nodebb-plugin-ns-meta-tag",
+  "library": "./plugin/index.js",
+  "hooks": [
+    {
+      "hook": "filter:admin.header.build",
+      "method": "hooks.filters.adminHeaderBuild"
+    },
+    {
+      "hook": "static:app.load",
+      "method": "hooks.statics.appLoad"
+    }
+  ],
+  "less": [
+  ],
+  "scripts": [
+  ],
+  "staticDirs": {
+    "templates": "./public/templates",
+    "js": "./public/js",
+    "css": "./public/css"
+  },
+  "templates": "./public/templates"
+}
